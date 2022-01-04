@@ -1,0 +1,57 @@
+/* Css for Home or Theme for website */
+
+/* Fonts */
+
+/* Global css */
+:root{
+    --main-color: #FFCCFF;
+    --color-1: #ffa500;
+    --color-2: #0066FF;
+    --color-3: #09d69c;
+    --shadow-color: #CCCCFF;
+    --text-color: #040404;
+}
+body{
+    background-color: #fffcff;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}  
+
+/* Navbar section */
+
+.navbar{
+    position: sticky;
+    padding: 10px;
+    background-color: #06c48e;
+}
+.navbar .nav-logo{
+    color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 25px;
+    display: flexbox;
+    position: absolute;
+    margin: -4px 0px 0px 200px;
+}
+.navbar ul{
+    text-align: center;
+    overflow: hidden;
+}
+.navbar .nav-link{
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+}
+.navbar li{
+    color: white;
+    display: inline;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+/* Home section */
+
