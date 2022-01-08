@@ -54,4 +54,31 @@ body{
 }
 
 /* Home section */
+.container{
+    display: flex;
+    align-items: center;
+}
+.intro{
+  align-items: center;
+}
+h1{
+    font-weight: 100;
+}
+p{
+    font-style: italic;
+}
+button {
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #23dd4f;
+    border-radius: 20px;
+  }
+
 
